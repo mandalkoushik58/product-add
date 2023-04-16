@@ -1,0 +1,13 @@
+
+<h1 class="bg-primary mb-4 p-4"> FORM ADDition STUDENT BY I/O</h1>
+ <div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <app-student-form (updateStudentInfo)="onStdUpdate($event)"></app-student-form>
+    </div>
+    <div class="col-md-6">
+      <app-student-table [studentInfo]="stdArray"></app-student-table>
+
+    </div>
+  </div>
+ </div>
